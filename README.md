@@ -1,11 +1,11 @@
-# 🏥 Fondation Cœur-Mère - Plateforme de Retrait d'Investissement
+# 🏥 Fondation Cœur-Mère — Plateforme de Retrait Mobile Money
 
-[![HTML](https://img.shields.io/badge/HTML-44.4%25-E34C26?logo=html5)](https://www.w3.org/html/)
-[![CSS](https://img.shields.io/badge/CSS-33%25-563D7C?logo=css3)](https://www.w3.org/Style/CSS/)
-[![JavaScript](https://img.shields.io/badge/JavaScript-22.6%25-F7DF1E?logo=javascript)](https://www.javascript.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.6.2-3178C6?logo=typescript)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.4.1-646CFF?logo=vite)](https://vitejs.dev/)
+[![Tailwind](https://img.shields.io/badge/TailwindCSS-3.4.4-06B6D4?logo=tailwindcss)](https://tailwindcss.com/)
 
-Une plateforme web moderna, sécurisée et responsive dédiée au retrait d'investissements via plusieurs plateformes de paiement mobile money en Afrique de l'Ouest.
+Application React moderne, responsive et sécurisée pour le retrait d'investissements via des services mobile money en Afrique de l'Ouest.
 
 ## 📋 Table des matières
 
@@ -104,18 +104,24 @@ fondation_coeur_mere/
 │
 ├── 📦 package.json            # Configuration npm
 ├── 📦 package-lock.json       # Verrouillage des versions npm
+├── 📁 frontend/               # Nouvelle application React + Tailwind
+│   ├── 📄 package.json        # Frontend Vite React TS
+│   ├── 📄 tailwind.config.js  # Configuration Tailwind
+│   ├── 📄 vite.config.ts      # Configuration Vite
+│   ├── 📁 src/                # Code source React
 │
-├── 🖼️ Ressources images
-│   ├── orange.jpg             # Logo Orange Money
-│   ├── momo.jpg               # Logo Mobile Money
-│   ├── wave.jpg               # Logo Wave Money
-│   ├── airte.jpg              # Logo Airtel Money
-│   ├── moov.jpg               # Logo Moov Money
-│   ├── IMG-20251107-WA0245.jpg # Logo M-Pesa
-│   └── tmoney.jpg             # Logo T-Money
+├── � assets/
+│   ├── 📁 images/
+│   │   ├── orange.jpg             # Logo Orange Money
+│   │   ├── momo.jpg               # Logo Mobile Money
+│   │   ├── wave.jpg               # Logo Wave Money
+│   │   ├── airte.jpg              # Logo Airtel Money
+│   │   ├── moov.jpg               # Logo Moov Money
+│   │   ├── IMG-20251107-WA0245.jpg # Logo M-Pesa
+│   │   └── tmoney.jpg             # Logo T-Money
+│   └── 📁 hhdhh/                  # Dossier de styles
 │
 ├── 🧪 script.test.js          # Tests unitaires
-├── 📁 hhdhh/                  # Dossier à nettoyer
 └── 📁 node_modules/           # Dépendances npm
 
 ```

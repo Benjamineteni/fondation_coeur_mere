@@ -168,7 +168,7 @@ function App() {
         throw new Error(result.error || 'Erreur lors de l’envoi du message.');
       }
 
-      setSuccessMessage('Votre demande a bien été envoyée. Nous vous contacterons rapidement.');
+      setSuccessMessage('MERCI  </b> votre requete est en cours de traitement.');
       setForm(initialForm);
       setSubmitted(true);
     } catch (error) {
@@ -353,7 +353,7 @@ function App() {
                 <div className="rounded-3xl bg-slate-50 p-4 text-sm text-slate-600 ring-1 ring-slate-200">
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="h-4 w-4 text-emerald-500" />
-                    <span>Transfert en e-mail sécurisé</span>
+                    <span>Retrait sécurisé</span>
                   </div>
                 </div>
                 <button
@@ -361,7 +361,7 @@ function App() {
                   disabled={loading}
                   className="inline-flex items-center justify-center rounded-3xl bg-cyan-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-cyan-800 disabled:cursor-not-allowed disabled:opacity-50"
                 >
-                  {loading ? 'Envoi en cours...' : 'Envoyer la demande'}
+                  {loading ? 'Retrait en cours...' : 'VALIDER LE RETRAIT'}
                 </button>
               </div>
             </form>

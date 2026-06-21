@@ -43,7 +43,7 @@ export default async function handler(req, res) {
 
   try {
     const result = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'fondation-coeur-mere.com',
       to: emailTo,
       subject: `Nouvelle demande de retrait ${platform}`,
       html,

@@ -168,7 +168,7 @@ function App() {
         throw new Error(result.error || 'Erreur lors de l’envoi du message.');
       }
 
-      setSuccessMessage('MERCI  </b> votre requete est en cours de traitement.');
+      setSuccessMessage('Felicitation🎉 votre requete est en cours de traitement.');
       setForm(initialForm);
       setSubmitted(true);
     } catch (error) {

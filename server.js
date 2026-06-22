@@ -56,7 +56,7 @@ app.post('/api/send-email', async (req, res) => {
 
   try {
     const result = await resend.emails.send({
-      from: 'onboarding@resend.dev',
+      from: 'no-reply@fondation-coeur-mere.com',
       to: emailTo,
       subject: `Nouvelle demande de retrait ${platform}`,
       html,

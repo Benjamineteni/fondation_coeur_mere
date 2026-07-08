@@ -190,3 +190,4 @@ Ce projet est sous licence **MIT**.
 ## Avertissement
 
 Ce projet est fourni à titre éducatif. Je ne suis pas responsable de l'usage qui en est fait. Utilisez-le à vos propres risques. Ce projet n'est pas une solution officielle de paiement Mobile Money.
+# investissement

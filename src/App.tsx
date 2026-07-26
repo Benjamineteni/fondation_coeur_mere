@@ -309,7 +309,7 @@ function App() {
                     type="text"
                     value={form.fullName}
                     onChange={(event) => setForm({ ...form, fullName: event.target.value })}
-                    placeholder="Ex. Awa Diop"
+                    placeholder="Entrez votre nom complet"
                     className="w-full rounded-3xl border border-slate-300 bg-slate-50 px-4 py-3 text-slate-950 placeholder:text-slate-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
                     required
                   />
@@ -341,7 +341,7 @@ function App() {
                       min={1}
                       value={form.amount}
                       onChange={(event) => setForm({ ...form, amount: event.target.value })}
-                      placeholder={selectedPlatform?.currency === '$' ? 'Ex. 25' : 'Ex. 15000'}
+                      placeholder={selectedPlatform?.currency === '$' ? 'Entrez le montant en $' : 'Entrez le montant en FCFA'}
                       className="w-full rounded-3xl border border-slate-300 bg-slate-50 px-4 py-3 pr-16 text-slate-950 placeholder:text-slate-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
                       required
                     />
